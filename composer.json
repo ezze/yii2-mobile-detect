@@ -1,6 +1,7 @@
 {
     "name": "ezze/yii2-mobile-detect",
     "description": "Yii2 component used to detect mobile devices",
+    "version": "0.1.0",
     "type": "yii2-extension",
     "authors": [
         {
