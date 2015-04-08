@@ -16,7 +16,7 @@ php composer.phar require --prefer-dist ezze/yii2-mobile-detect
 or add
 
 ```json
-"yiisoft/yii2-mobile-detect": "~0.1.0"
+"ezze/yii2-mobile-detect": "~0.1.0"
 ```
 
 to the `require` section of your `composer.json` file.
@@ -27,8 +27,10 @@ to the `require` section of your `composer.json` file.
 like this:
 
     ```php
-    'mobile-detect' => [
-        'class' => '\ezze\yii2\mobiledetect\MobileDetect'
+    'components' => [
+        'mobileDetect' => [
+            'class' => '\ezze\yii2\mobiledetect\MobileDetect'
+        ]
     ]
     ```
 
