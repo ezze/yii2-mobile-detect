@@ -1,0 +1,15 @@
+{
+    "name": "ezze/yii2-mobile-detect",
+    "description": "Yii2 component used to detect mobile devices",
+    "type": "yii2-extension",  
+    "require": {
+        "yiisoft/yii2": "*",
+        "mobiledetect/mobiledetectlib": "2.8.*"
+    },
+    "authors": [
+        {
+            "name": "Dmitriy Pushkov",
+            "email": "ezze@ezze.org"
+        }
+    ]
+}
